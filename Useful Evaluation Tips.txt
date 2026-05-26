@@ -1,7 +1,7 @@
 Hello there! To load this add-on in Minecraft: Bedrock Edition, it can be done in one of two ways:
 
-1. Double-click the .mcaddon file included in the main directory and it will automatically import it for use. Just attach it to a new world and you should be good to go!
-2. Alternatively, copy the "Worldgen_Project_AC" folders from both the behavior_packs and resource_packs directories and paste them into the development_behavior_packs and development_resource_packs folders
+1. Double-click the .mcaddon file included in this file and/or the git main directory and it will automatically import it for use. Just attach it to a new world and you should be good to go!
+2. Alternatively, clone the git repository, then copy the "Worldgen_Project_AC" folders from the Content directory and paste them into the development_behavior_packs and development_resource_packs folders
 that are located in the com.mojang directory. Just make sure they go into their matching folder!
 
 To find the com.mojang directory, press Win + R and enter this text:
