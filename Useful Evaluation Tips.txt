@@ -1,0 +1,30 @@
+Hello there! To load this add-on in Minecraft: Bedrock Edition, it can be done in one of two ways:
+
+1. Double-click the .mcaddon file included in the main directory and it will automatically import it for use. Just attach it to a new world and you should be good to go!
+2. Alternatively, copy the "Worldgen_Project_AC" folders from both the behavior_packs and resource_packs directories and paste them into the development_behavior_packs and development_resource_packs folders
+that are located in the com.mojang directory. Just make sure they go into their matching folder!
+
+To find the com.mojang directory, press Win + R and enter this text:
+
+%appdata%\Minecraft Bedrock\Users\Shared\games\com.mojang
+
+A VS Code .workspace file is also included in the repository for convenience of viewing.
+
+Here's also a list of commands that should make evaluating this Portfolio add-on a bit easier once the add-on is loaded!
+
+Locating Biomes:
+
+/locate biome ac:candy_fields
+/locate biome ac:nether_plains
+
+Locating Structures:
+
+/locate structure ac:candy_fields_village
+/locate structure ac:donut_dungeon
+
+These are the primary things to be looking for. 
+
+There's also small handful of extra stuff in the pack that's at varying stages of completeness, but those have been disabled in-game for the sake of simplicity. 
+
+Thanks for taking the time to check out this application!
+-Andrew Childers
