@@ -1,0 +1,25 @@
+{
+    "format_version": "1.20.70",
+    "minecraft:item": {
+        "description": {
+            "identifier": "ac:donut"
+        },
+        "components": {
+            "minecraft:max_stack_size": 16,
+            "minecraft:icon": "ac:donut_texture",
+            "minecraft:display_name": {
+                "value": "Donut"
+            },
+            "minecraft:use_modifiers": {
+                "use_duration": 1.5,
+                "movement_modifier": 0.5
+            },
+            "minecraft:use_animation":"eat",
+            "minecraft:food": {
+                "nutrition": 10,
+                "can_always_eat": false,
+                "saturation_modifier": 1.0
+            }
+        }
+    }
+}

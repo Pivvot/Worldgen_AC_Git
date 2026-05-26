@@ -1,0 +1,46 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Worldgen Portfolio Resources",
+		"description": "Resources for Worldgen Portfolio by Andrew Childers.",
+		"uuid": "a347a2da-ebad-476e-b340-411b4d24d81a",
+		"pack_scope": "world",
+		"version": [
+			1,
+			0,
+			0
+		],
+		"min_engine_version": [
+			1,
+			20,
+			81
+		]
+	},
+	"modules": [
+		{
+			"type": "resources",
+			"uuid": "28521ff3-d3e6-432d-b76e-d47d39f770bd",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "1a851c0f-5951-415a-ab74-66845b941df9",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"metadata": {
+		"product_type": "addon"
+	},
+	"capabilities": [
+		"pbr"
+	]
+}

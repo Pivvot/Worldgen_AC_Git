@@ -1,0 +1,25 @@
+{ 
+  "format_version": "1.21.20", 
+  "minecraft:structure_set": { 
+    "description": { 
+      "identifier": "ac:candy_fields_structures" 
+    }, 
+    "placement": { 
+      "type": "minecraft:random_spread", 
+      "salt": 859333732, 
+      "separation": 5, 
+      "spacing": 12, 
+      "spread_type": "linear" 
+    }, 
+    "structures": [ 
+      { 
+        "structure": "ac:candy_fields_village", 
+        "weight": 3 
+      }, 
+      { 
+        "structure": "ac:donut_dungeon", 
+        "weight": 2
+      } 
+    ] 
+  } 
+} 

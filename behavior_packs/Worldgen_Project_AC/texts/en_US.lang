@@ -1,0 +1,5 @@
+﻿## BEHAVIOR PACK MANIFEST ============================================================================================
+pack.name= Custom Worldgen Testing
+pack.description=This is a behavior pack created for demonstration purposes.
+tile.ac:palm_log.name= Palm Log
+tile.ac:palm_leaves.name= Palm Leaves

@@ -1,0 +1,52 @@
+{
+    "format_version": "1.21.110",
+    "minecraft:template_pool": {
+        "description": {
+            "identifier": "ac:village_candyfields/buildings"
+        },
+        "elements": [
+            {
+                "element": {
+                    "element_type": "minecraft:single_pool_element",
+                    "location": "ac/cv_village_house_1",
+                    "processors": "ac:candy_fields_village_plot_processor",
+                    "projection": "rigid"
+                },
+                "weight": 4
+            },
+            {
+                "element": {
+                    "element_type": "minecraft:single_pool_element",
+                    "location": "ac/cv_village_house_2",
+                    "processors": "ac:candy_fields_village_plot_processor",
+                    "projection": "rigid"
+                },
+                "weight": 4
+            },
+            {
+                "element": {
+                    "element_type": "minecraft:single_pool_element",
+                    "location": "ac/cv_cake_farm",
+                    "processors": "ac:candy_fields_village_plot_processor",
+                    "projection": "rigid"
+                },
+                "weight": 2
+            },
+            {
+                "element": {
+                    "element_type": "minecraft:single_pool_element",
+                    "location": "ac/cv_cocoa_farm",
+                    "processors": "ac:candy_fields_village_plot_processor",
+                    "projection": "rigid"
+                },
+                "weight": 2
+            },
+            {
+                "element": {
+                    "element_type": "minecraft:empty_pool_element"
+                },
+                "weight": 1
+            }
+        ]
+    }
+}

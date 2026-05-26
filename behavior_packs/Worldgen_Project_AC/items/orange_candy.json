@@ -1,0 +1,29 @@
+{
+    "format_version": "1.21.70",
+    "minecraft:item": {
+        "description": {
+            "identifier": "ac:orange_candy",
+            "menu_category": {
+                "category": "items"
+            }
+        },
+        "components": {
+            "minecraft:max_stack_size": 16,
+            "minecraft:icon": "ac:orange_candy_texture",
+            "minecraft:display_name": {
+                "value": "Orange Candy"
+            },
+            "minecraft:use_modifiers": {
+                "use_duration": 0.8,
+                "movement_modifier": 1.0
+            },
+            "minecraft:use_animation":"eat",
+            "minecraft:food": {
+                "nutrition": 2,
+                "can_always_eat": true,
+                "saturation_modifier": 0.5
+            },
+            "minecraft:custom_components": ["ac:orange_candy_effects"]
+        }
+    }
+}

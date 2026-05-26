@@ -1,0 +1,88 @@
+{
+    "format_version": "1.21.80",
+    "minecraft:tree_feature": {
+      "description": {
+        "identifier": "ac:nether_plains_crimson_tree_feature"
+      },
+      "acacia_trunk": {
+        "trunk_width": 2,
+        "trunk_height": {
+          "base": 5,
+          "intervals": [9],
+          "min_height_for_canopy": 7
+        },
+        "trunk_block": {
+          "name": "minecraft:crimson_stem"
+        },
+        "trunk_lean": {
+          "allow_diagonal_growth": true,
+          "lean_height": {
+            "range_min": 3,
+            "range_max": 9
+          },
+          "lean_steps": {
+            "range_min": 3,
+            "range_max": 9
+          },
+          "lean_length": {
+            "range_min": 3,
+            "range_max": 9
+          }
+        }
+      },
+      "mangrove_canopy": {
+        "canopy_height": 2,
+        "canopy_radius": 5,
+        "leaf_placement_attempts": 40,
+        "leaf_blocks": [
+          ["minecraft:nether_wart_block", 1]
+        ],
+        "hanging_block": "minecraft:ochre_froglight",
+        "hanging_block_placement_chance": {"numerator": 1, "denominator": 15}
+      },
+      "base_block": ["minecraft:crimson_nylium"],
+      "may_grow_on": [
+        "minecraft:crimson_nylium",
+        "minecraft:warped_nylium",
+        "minecraft:soul_soil",
+        "minecraft:soul_sand"
+      ],
+      "may_replace": [
+        "minecraft:oak_leaves",
+        "minecraft:spruce_leaves",
+        "minecraft:birch_leaves",
+        "minecraft:jungle_leaves",
+        "minecraft:acacia_leaves",
+        "minecraft:dark_oak_leaves",
+        "minecraft:azalea",
+        "minecraft:flowering_azalea",
+        "minecraft:azalea_leaves",
+        "minecraft:azalea_leaves_flowered",
+        "minecraft:mangrove_leaves",
+        "minecraft:water",
+        "minecraft:flowing_water",
+        "minecraft:moss_carpet",
+        "minecraft:tallgrass",
+        "minecraft:grass_block",
+        "minecraft:air",
+        "minecraft:sunflower",
+        "minecraft:lilac",
+        "minecraft:tall_grass",
+        "minecraft:large_fern",
+        "minecraft:rose_bush",
+        "minecraft:peony",
+        "minecraft:crimson_fungus",
+        "minecraft:crimson_roots",
+        "minecraft:warped_fungus",
+        "minecraft:warped_roots"
+      ],
+      "may_grow_through": [
+        "minecraft:crimson_nylium",
+        "minecraft:crimson_roots",
+        "minecraft:warped_nylium",
+        "minecraft:warped_roots",
+        "minecraft:crimson_fungus",
+        "minecraft:warped_fungus"
+      ]
+    }
+  }

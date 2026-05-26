@@ -1,0 +1,18 @@
+{
+    "format_version": "1.21.20",
+    "minecraft:template_pool": {
+        "description": {
+            "identifier": "ac:donut_dungeon"
+        },
+        "elements": [
+            {
+                "element": {
+                    "element_type": "minecraft:single_pool_element",
+                    "location": "ac/donut_dungeon",
+                    "processors": "ac:donut_dungeon_barrier_processor"
+                },
+                "weight": 1
+            }
+        ]
+    }
+}

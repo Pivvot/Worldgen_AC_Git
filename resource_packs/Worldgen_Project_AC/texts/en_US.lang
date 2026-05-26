@@ -1,0 +1,30 @@
+## RESOURCE PACK MANIFEST ============================================================================================
+pack.name=Custom Feature Resources
+pack.description=This resource pack is required for this custom features pack to to run properly.
+
+## ENTITY NAMES ======================================================================================================
+entity.ac:candy_villager.name=Candy Villager
+entity.ac:infernal_skeleton.name= Infernal Skeleton
+entity.ac:dread_skeleton.name=Dread Skeleton
+## SPAWN EGGS ========================================================================================================
+item.spawn_egg.entity.ac:candy_villager.name=Candy Villager Spawn Egg
+## item.spawn_egg.entity.ac:*.name=Delete Me
+
+## ITEM NAMES ==========================================================================================================
+item.ac:donut.name=Donut
+item.ac:red_candy.name=Red Candy
+item.ac:blue_candy.name=Blue Candy
+item.ac:orange_candy.name=Orange Candy
+## SIGNS =============================================================================================================
+##{"rawtext":[{"translate":"sign.text_thing_stuff","with":["\n"]}]}
+
+## INTERACT TEXT =====================================================================================================
+
+## TITLES ============================================================================================================
+
+## ACTIONBAR TEXT ====================================================================================================
+
+## BLOCKS ============================================================================================================
+tile.ac:crystallized_sugar_block.name=Crystallized Sugar Block
+tile.ac:sugar_sand.name=Sugar Sand
+## DIALOGUE ==========================================================================================================

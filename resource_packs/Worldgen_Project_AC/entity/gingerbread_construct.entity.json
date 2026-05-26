@@ -1,0 +1,35 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "ac:gingerbread_construct",
+			"materials": {
+				"default": "iron_golem"
+			},
+			"textures": {
+				"default": "textures/entity/gingerbread_construct"
+			},
+			"geometry": {
+				"default": "geometry.gingerbread_construct"
+			},
+			"animations": {
+				"walk": "animation.gingerbread_construct.walk",
+				"move": "animation.gingerbread_construct.move",
+				"walk_to_target": "animation.gingerbread_construct.walk_to_target",
+				"move_to_target": "animation.gingerbread_construct.move_to_target",
+				"attack": "animation.gingerbread_construct.attack",
+				"flower": "animation.gingerbread_construct.flower",
+				"look_at_target": "animation.common.look_at_target",
+				"move_controller": "controller.animation.iron_golem.move",
+				"arm_controller": "controller.animation.iron_golem.arm_movement"
+			},
+			"scripts": {
+				"pre_animation": [
+					"variable.modified_tcos0 = Math.clamp(((Math.cos(query.modified_distance_moved * 13.5) * Math.min(query.modified_move_speed, 0.6) / variable.gliding_speed_value) * 25.0), -12.5, 12.5);"
+				],
+				"animate": ["look_at_target", "move_controller", "arm_controller"]
+			},
+			"render_controllers": ["controller.render.default"]
+		}
+	}
+}

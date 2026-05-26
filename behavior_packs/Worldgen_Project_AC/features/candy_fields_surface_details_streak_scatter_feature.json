@@ -1,0 +1,21 @@
+{
+    "format_version": "1.21.80",
+    "minecraft:scatter_feature": {
+      "description": {
+        "identifier": "ac:candy_fields_surface_details_streak_scatter_feature"
+      },
+      "places_feature": "ac:candy_fields_surface_color_streaks_weighted_feature",
+      "distribution": {
+        "iterations": "math.random(4, 9)",
+        "x": {
+          "distribution": "fixed_grid",
+          "extent": [ 0, 2 ]
+        },
+        "y": 0,
+        "z": {
+          "distribution": "fixed_grid",
+          "extent": [ 0, 15 ]
+        }
+      }
+    }
+  }

@@ -1,0 +1,11 @@
+{
+    "format_version": "1.21.80",
+    "minecraft:weighted_random_feature": {
+        "description": {
+            "identifier": "ac:nether_plains_ground_decoration_weighted_feature"
+        },
+        "features": [
+            ["ac:nether_plains_crimson_tree_feature", 1]
+        ]
+    }
+}

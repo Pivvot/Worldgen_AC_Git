@@ -1,0 +1,13 @@
+{
+	"format_version": "1.21.80",
+
+	"minecraft:aggregate_feature": {
+		"description": {
+			"identifier": "ac:candy_fields_surface_details_aggregate_feature"
+		},
+
+		"features": [
+			"ac:candy_fields_surface_details_streak_scatter_feature"
+		]
+	}
+}

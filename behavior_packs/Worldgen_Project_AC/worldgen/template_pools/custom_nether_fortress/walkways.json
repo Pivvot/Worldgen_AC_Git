@@ -1,0 +1,49 @@
+{
+    "format_version": "1.21.120",
+    "minecraft:template_pool": {
+        "description": {
+            "identifier": "ac:custom_nether_fortress/walkways"
+        },
+        "elements": [
+            {
+                "element": {
+                    "element_type": "minecraft:single_pool_element",
+                    "location": "ac/cnf_walkway_straight_1",
+                    "processors": "ac:custom_nether_fortress_processor",
+                    "projection": "rigid"
+                    
+                },
+                "weight": 7
+            },
+            {
+                "element": {
+                    "element_type": "minecraft:single_pool_element",
+                    "location": "ac/cnf_walkway_intstraight_1",
+                    "processors": "ac:custom_nether_fortress_processor",
+                    "projection": "rigid"
+                    
+                },
+                "weight": 3
+            },
+            {
+                "element": {
+                    "element_type": "minecraft:single_pool_element",
+                    "location": "ac/cnf_walkway_90turn_1",
+                    "processors": "ac:custom_nether_fortress_processor",
+                    "projection": "rigid"
+                },
+                "weight": 2
+            },
+            {
+                "element": {
+                    "element_type": "minecraft:single_pool_element",
+                    "location": "ac/cnf_walkway_int90turn_1",
+                    "processors": "ac:custom_nether_fortress_processor",
+                    "projection": "rigid"
+                },
+                "weight": 1
+            }
+        ],
+        "fallback": "ac:custom_nether_fortress/endcaps"
+    }
+}

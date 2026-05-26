@@ -1,0 +1,37 @@
+{
+    "format_version": "1.21.50",
+    "minecraft:feature_rules": {
+        "description": {
+            "identifier": "ac:candyfields_sugar_sand_patch_feature_rule",
+            "places_feature": "ac:candy_fields_sugar_sand_patch_feature"
+        },
+        "conditions": {
+            "placement_pass": "surface_pass",
+            "minecraft:biome_filter": [
+                {
+                    "any_of": [
+                        {
+                            "test": "has_biome_tag",
+                            "operator": "==",
+                            "value": "ac:candy_fields"
+                        }
+                    ]
+                }
+            ]
+        },
+        "distribution": {
+            "iterations": "math.random(2,5)",
+            "scatter_chance": 30.0,
+            "coordinate_eval_order": "zxy",
+            "x": {
+                "distribution": "triangle",
+                "extent": [ 1, 15 ]
+              },
+            "y": "q.heightmap(v.worldx, v.worldz)",
+            "z": {
+                "distribution": "triangle",
+                "extent": [ 1, 15 ]
+              }
+        }
+    }
+}

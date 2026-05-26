@@ -1,0 +1,21 @@
+{ 
+  "format_version": "1.21.20", 
+  "minecraft:structure_set": { 
+    "description": { 
+      "identifier": "ac:nether_plains_volcano" 
+    }, 
+    "placement": { 
+      "type": "minecraft:random_spread", 
+      "salt": 85904732, 
+      "separation": 3, 
+      "spacing": 9, 
+      "spread_type": "linear" 
+    }, 
+    "structures": [ 
+      { 
+        "structure": "ac:nether_plains_volcano", 
+        "weight": 1 
+      } 
+    ] 
+  } 
+} 

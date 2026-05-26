@@ -1,0 +1,34 @@
+{
+    "format_version": "1.21.120",
+    "minecraft:template_pool": {
+        "description": {
+            "identifier": "ac:custom_nether_fortress/supports"
+        },
+        "elements": [
+            {
+                "element": {
+                    "element_type": "minecraft:single_pool_element",
+                    "location": "ac/cnf_support_pillar_long_1",
+                    "processors": "ac:custom_nether_fortress_processor",
+                    "projection": "rigid"
+                    
+                    
+                },
+                "weight": 2
+                
+            },
+            {
+                "element": {
+                    "element_type": "minecraft:single_pool_element",
+                    "location": "ac/empty_structure",
+                    "processors": "ac:custom_nether_fortress_processor",
+                    "projection": "rigid"
+                    
+                },
+                
+                "weight": 1
+                
+            }
+        ]
+    }
+}

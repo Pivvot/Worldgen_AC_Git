@@ -1,0 +1,37 @@
+{
+    "format_version": "1.21.50",
+    "minecraft:feature_rules": {
+        "description": {
+            "identifier": "ac:candyfields_surface_detail_feature_rule",
+            "places_feature": "ac:candy_fields_surface_details_aggregate_feature"
+        },
+        "conditions": {
+            "placement_pass": "before_surface_pass",
+            "minecraft:biome_filter": [
+                {
+                    "any_of": [
+                        {
+                            "test": "has_biome_tag",
+                            "operator": "==",
+                            "value": "ac:candy_fields"
+                        }
+                    ]
+                }
+            ]
+        },
+        "distribution": {
+            "iterations": 2,
+            "scatter_chance": 50.0,
+            "coordinate_eval_order": "zxy",
+            "x": {
+                "distribution": "gaussian",
+                "extent": [ 0, 15 ]
+              },
+            "y": "q.heightmap(v.worldx, v.worldz)",
+            "z": {
+                "distribution": "gaussian",
+                "extent": [ 0, 15 ]
+              }
+        }
+    }
+}

@@ -1,0 +1,55 @@
+{
+    "format_version": "1.21.120",
+    "minecraft:processor_list": {
+        "description": {
+            "identifier": "ac:custom_nether_fortress_processor"
+        },
+        "processors": [
+            {
+                "processor_type": "minecraft:rule",
+                "rules": [
+                    {
+                        "input_predicate": {
+                            "predicate_type": "minecraft:random_block_match",
+                            "block": "minecraft:magenta_concrete",
+                            "probability": 0.75
+                        },
+                        "output_state": {
+                            "name": "minecraft:air"
+                        }
+                    },
+                    {
+                        "input_predicate": {
+                            "predicate_type": "minecraft:random_block_match",
+                            "block": "minecraft:magenta_concrete",
+                            "probability": 0.95
+                        },
+                        "output_state": {
+                            "name": "minecraft:soul_lantern"
+                        }
+                    },
+                    {
+                        "input_predicate": {
+                            "predicate_type": "minecraft:random_block_match",
+                            "block": "minecraft:magenta_concrete",
+                            "probability": 0.74
+                        },
+                        "output_state": {
+                            "name": "minecraft:lantern"
+                        }
+                    },
+                    {
+                        "input_predicate": {
+                            "predicate_type": "minecraft:random_block_match",
+                            "block": "minecraft:nether_brick",
+                            "probability": 0.23
+                        },
+                        "output_state": {
+                            "name": "minecraft:cracked_nether_bricks"
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:structure_template_feature": {
+        "description": {
+            "identifier": "ac:enhanced_dungeon_feature"
+        },
+        "structure_name": "mystructure:enhanced_dungeon_b",
+        "adjustment_radius": 0,
+        "facing_direction": "random",
+        "constraints": {
+            "block_intersection": {
+                "only_check_intersection_for_motion_blocking_blocks": true,
+                "block_allowlist": [
+                    "minecraft:stone",
+                    "minecraft:air",
+                    "minecraft:andesite",
+                    "minecraft:granite",
+                    "minecraft:diorite",
+                    "minecraft:gravel"
+                ]
+            }
+            
+        }
+    }
+}

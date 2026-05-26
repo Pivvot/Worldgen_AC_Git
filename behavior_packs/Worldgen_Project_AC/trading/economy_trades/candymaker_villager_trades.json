@@ -1,0 +1,124 @@
+{
+    "tiers": [
+        {
+            "total_exp_required": 0,
+            "groups": [
+                {
+                    "num_to_select": 1,
+                    "trades": [
+                        {
+                            "wants": [
+                                {
+                                    "item": "minecraft:sugar",
+                                    "quantity": {
+                                        "min": 12,
+                                        "max": 24
+                                    },
+                                    "price_multiplier": 0.5
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "minecraft:emerald",
+                                    "quantity": {
+                                        "min": 1,
+                                        "max": 1
+                                    }
+                                }
+                            ],
+                            "max_uses": 6,
+                            "trader_exp": 5
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "total_exp_required": 30,
+            "groups": [
+                {
+                    "trades": [
+                        {
+                            "wants": [
+                                {
+                                    "choice": [
+                                        {
+                                            "item": "minecraft:emerald",
+                                            "quantity": {
+                                                "min": 1,
+                                                "max": 1
+                                            },
+                                            "price_multiplier": 0.5
+                                        }
+                                    ]
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "ac:red_candy",
+                                    "quantity": {
+                                        "min": 2,
+                                        "max": 2
+                                    }
+                                }
+                            ],
+                            "max_uses": 32
+                        },
+                        {
+                            "wants": [
+                                {
+                                    "choice": [
+                                        {
+                                            "item": "minecraft:emerald",
+                                            "quantity": {
+                                                "min": 1,
+                                                "max": 1
+                                            },
+                                            "price_multiplier": 0.5
+                                        }
+                                    ]
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "ac:blue_candy",
+                                    "quantity": {
+                                        "min": 2,
+                                        "max": 2
+                                    }
+                                }
+                            ],
+                            "max_uses": 32
+                        },
+                        {
+                            "wants": [
+                                {
+                                    "choice": [
+                                        {
+                                            "item": "minecraft:emerald",
+                                            "quantity": {
+                                                "min": 1,
+                                                "max": 1
+                                            },
+                                            "price_multiplier": 0.5
+                                        }
+                                    ]
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "ac:orange_candy",
+                                    "quantity": {
+                                        "min": 2,
+                                        "max": 2
+                                    }
+                                }
+                            ],
+                            "max_uses": 32
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

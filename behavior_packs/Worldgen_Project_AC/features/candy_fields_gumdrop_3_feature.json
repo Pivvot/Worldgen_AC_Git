@@ -1,0 +1,22 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:structure_template_feature": {
+        "description": {
+            "identifier": "ac:candy_fields_gumdrop_3_feature"
+        },
+        "structure_name": "ac:candy_fields_gumdrop_3",
+        "adjustment_radius": 4,
+        "facing_direction": "random",
+        "constraints": {
+            "block_intersection": {
+                "only_check_intersection_for_motion_blocking_blocks": true,
+                "block_allowlist": [
+                    "minecraft:air",
+                    "minecraft:snow"
+                ]
+            },
+            "grounded": {},
+            "unburied": {}
+        }
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "format_version": "1.21.40",
+    "minecraft:client_biome": {
+        "description": {
+            "identifier": "ac:nether_plains"
+        },
+        "components": {
+            "minecraft:sky_color": {
+                "sky_color": "#681f0d"
+            },
+            "minecraft:fog_appearance": {
+                "fog_identifier": "ac:nether_plains_fog_setting"
+            },
+            "minecraft:foliage_appearance": {
+                "color": "#483452"
+            },
+            "minecraft:grass_appearance": {
+                "color": "#483452"
+            }
+        }
+    }
+}

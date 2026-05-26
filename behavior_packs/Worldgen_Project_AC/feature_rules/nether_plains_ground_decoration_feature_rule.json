@@ -1,0 +1,36 @@
+{
+    "format_version": "1.21.50",
+    "minecraft:feature_rules": {
+        "description": {
+            "identifier": "ac:nether_plains_ground_decoration_feature_rule",
+            "places_feature": "ac:nether_plains_ground_decoration_weighted_feature"
+        },
+        "conditions": {
+            "placement_pass": "surface_pass",
+            "minecraft:biome_filter": [
+                {
+                    "any_of": [
+                        {
+                            "test": "has_biome_tag",
+                            "operator": "==",
+                            "value": "ac:nether_plains"
+                        }
+                    ]
+                }
+            ]
+        },
+        "distribution": {
+            "iterations": "math.random_integer(0, 2)",
+            "coordinate_eval_order": "zxy",
+            "x": {
+                "distribution": "inverse_gaussian",
+                "extent": [ 0, 12 ]
+              },
+            "y": "q.heightmap(v.worldx, v.worldz)",
+            "z": {
+                "distribution": "inverse_gaussian",
+                "extent": [ 0, 12 ]
+              }
+        }
+    }
+}

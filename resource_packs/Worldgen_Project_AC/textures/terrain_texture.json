@@ -1,0 +1,20 @@
+{
+	"resource_pack_name": "RP",
+	"texture_name": "atlas.terrain",
+	"padding": 8,
+	"num_mip_levels": 4,
+	"texture_data": {
+		"palm_leaves_texture": {
+			"textures": "textures/blocks/palm_leaves.png"
+		},
+		"palm_log_texture": {
+			"textures": "textures/blocks/palm_log.png"
+		},
+		"crystallized_sugar_block_material": {
+			"textures": "textures/blocks/crystallized_sugar_block_color_16x16"
+		},
+		"sugar_sand_block_material": {
+			"textures": "textures/blocks/sugar_sand_texture_16x16"
+		}
+	}
+}

@@ -1,0 +1,45 @@
+{
+  "format_version": "1.21.80",
+  "minecraft:jigsaw": {
+    "description": {
+      "identifier": "ac:custom_nether_fortress"
+    },
+    "biome_filters": [
+      {
+        "any_of": [
+          {
+            "test": "has_biome_tag",
+            "operator": "==",
+            "value": "nether_wastes"
+          },
+          {
+            "test": "has_biome_tag",
+            "operator": "==",
+            "value": "crimson_forest"
+          },
+          {
+            "test": "has_biome_tag",
+            "operator": "==",
+            "value": "warped_forest"
+          }
+        ]
+      }
+    ],
+    "step": "underground_structures",
+    "terrain_adaptation": "bury",
+    "start_pool": "ac:custom_nether_fortress/intersections",
+    "max_depth": 15,
+    "start_height": {
+      "type": "constant",
+      "value": {
+        "absolute": -32
+      }
+    },
+    "heightmap_projection": "world_surface",
+    "dimension_padding": {
+      "top": 8,
+      "bottom": 8
+    },
+    "liquid_settings": "apply_waterlogging"
+  }
+}

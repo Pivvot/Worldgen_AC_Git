@@ -1,0 +1,15 @@
+{
+    "format_version":"1.13.0",
+    "ac:palm_leaves": {
+        "sound": "grass"
+    },
+	"ac:palm_log": {
+        "sound": "wood"
+    },
+    "ac:crystallized_sugar_block": {
+        "sound": "basalt"
+    },
+    "ac:sugar_sand": {
+        "sound": "soul_soil"
+    }
+}

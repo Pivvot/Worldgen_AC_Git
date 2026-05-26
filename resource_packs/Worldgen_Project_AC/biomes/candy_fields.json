@@ -1,0 +1,22 @@
+{
+    "format_version": "1.21.110",
+    "minecraft:client_biome": {
+        "description": {
+            "identifier": "ac:candy_fields"
+        },
+        "components": {
+            "minecraft:sky_color": {
+                "sky_color": "#6be4e4"
+            },
+            "minecraft:foliage_appearance": {
+                "color": "#e093d0"
+            },
+            "minecraft:grass_appearance": {
+                "color": "#dd8acb"
+            },
+            "minecraft:water_appearance": {
+                "surface_color": "#a650d8"
+            }
+        }
+    }
+}

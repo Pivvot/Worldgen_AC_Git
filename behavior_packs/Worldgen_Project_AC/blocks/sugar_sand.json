@@ -1,0 +1,95 @@
+{
+	"format_version": "1.21.70",
+	"minecraft:block": {
+		"description": {
+			"identifier": "ac:sugar_sand",
+			"states": {
+				"ac:stood_on": [
+					false,
+					true
+				]
+			},
+			"menu_category": {
+				"category": "nature"
+			}
+		},
+		"components": {
+			"minecraft:collision_box": true,
+			"minecraft:selection_box": true,
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 1.0,
+				"item_specific_speeds": [
+					{
+						"item": {
+							"tags": "q.all_tags('minecraft:is_shovel', 'minecraft:wooden_tier')"
+						},
+						"destroy_speed": 0.66
+					},
+
+					{
+						"item": {
+							"tags": "q.all_tags('minecraft:is_shovel', 'minecraft:stone_tier')"
+						},
+						"destroy_speed": 0.4
+					},
+					{
+						"item": {
+							"tags": "q.all_tags('minecraft:is_shovel', 'minecraft:copper_tier')"
+						},
+						"destroy_speed": 0.4
+					},
+
+					{
+						"item": {
+							"tags": "q.all_tags('minecraft:is_shovel', 'minecraft:iron_tier')"
+						},
+						"destroy_speed": 0.3
+					},
+
+					{
+						"item": {
+							"tags": "q.all_tags('minecraft:is_shovel', 'minecraft:golden_tier')"
+						},
+						"destroy_speed": 0.25
+					},
+					{
+						"item": {
+							"tags": "q.all_tags('minecraft:is_shovel', 'minecraft:diamond_tier')"
+						},
+						"destroy_speed": 0.25
+					},
+
+					{
+						"item": {
+							"tags": "q.all_tags('minecraft:is_shovel', 'minecraft:netherite_tier')"
+						},
+						"destroy_speed": 0.15
+					}
+				]
+			},
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 2
+			},
+			"minecraft:friction": 0.1,
+			"minecraft:geometry": "geometry.ac.full_block",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "sugar_sand_block_material",
+					"render_method": "opaque",
+					"isotropic": false,
+					"face_dimming": false
+				}
+			},
+			"minecraft:map_color": "#f4d5ff",
+			"minecraft:loot": "loot_tables/blocks/sugar_sand.json",
+			"minecraft:liquid_detection": {
+				"detection_rules": [
+					{
+						"liquid_type": "water",
+						"on_liquid_touches": "popped"
+					}
+				]
+			}
+		}
+	}
+}

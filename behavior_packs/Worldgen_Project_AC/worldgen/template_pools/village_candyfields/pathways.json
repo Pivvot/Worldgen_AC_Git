@@ -1,0 +1,73 @@
+{
+    "format_version": "1.21.110",
+    "minecraft:template_pool": {
+        "description": {
+            "identifier": "ac:village_candyfields/pathways"
+        },
+        "elements": [
+            {
+                "element": {
+                    "element_type": "minecraft:single_pool_element",
+                    "location": "ac/cv_straightpath_1",
+                    "processors": "ac:candy_fields_village_path_processor",
+                    "projection": "terrain_matching"
+                },
+                "weight": 3
+            },
+            {
+                "element": {
+                    "element_type": "minecraft:single_pool_element",
+                    "location": "ac/cv_straightpath_2",
+                    "processors": "ac:candy_fields_village_path_processor",
+                    "projection": "terrain_matching"
+                },
+                "weight": 3
+            },
+            {
+                "element": {
+                    "element_type": "minecraft:single_pool_element",
+                    "location": "ac/cv_4waycross_1",
+                    "processors": "ac:candy_fields_village_path_processor",
+                    "projection": "terrain_matching"
+                },
+                "weight": 1
+            },
+            {
+                "element": {
+                    "element_type": "minecraft:single_pool_element",
+                    "location": "ac/cv_3waycross_build_1",
+                    "processors": "ac:candy_fields_village_path_processor",
+                    "projection": "terrain_matching"
+                },
+                "weight": 2
+            },
+            {
+                "element": {
+                    "element_type": "minecraft:single_pool_element",
+                    "location": "ac/cv_straightpath_4builds_1",
+                    "processors": "ac:candy_fields_village_path_processor",
+                    "projection": "terrain_matching"
+                },
+                "weight": 1
+            },
+            {
+                "element": {
+                    "element_type": "minecraft:single_pool_element",
+                    "location": "ac/cv_straightpath_2builds_1",
+                    "processors": "ac:candy_fields_village_path_processor",
+                    "projection": "terrain_matching"
+                },
+                "weight": 1
+            },
+            {
+                "element": {
+                    "element_type": "minecraft:single_pool_element",
+                    "location": "ac/cv_straightpath_2builds_2",
+                    "processors": "ac:candy_fields_village_path_processor",
+                    "projection": "terrain_matching"
+                },
+                "weight": 3
+            }
+        ]
+    }
+}

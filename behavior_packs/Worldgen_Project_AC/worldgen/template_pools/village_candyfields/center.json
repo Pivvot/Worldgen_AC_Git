@@ -1,0 +1,20 @@
+{
+    "format_version": "1.21.110",
+    "minecraft:template_pool": {
+        "description": {
+            "identifier": "ac:village_candyfields/center"
+        },
+        "elements": [
+            {
+                "element": {
+                    "element_type": "minecraft:single_pool_element",
+                    "location": "ac/cv_4waycenter_1",
+                    "processors": "ac:candy_fields_village_plot_processor",
+                    "projection": "rigid"
+                },
+                "weight": 1
+            }
+        ],
+        "fallback": "ac:village_candyfields/pathways"
+    }
+}

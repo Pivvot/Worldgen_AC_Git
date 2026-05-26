@@ -1,0 +1,33 @@
+{
+    "format_version": "1.21.20",
+    "minecraft:processor_list": {
+        "description": {
+            "identifier": "ac:donut_dungeon_barrier_processor"
+        },
+        "processors": [
+            {
+                "processor_type": "minecraft:rule",
+                "rules": [
+                    {
+                        "input_predicate": {
+                            "predicate_type": "minecraft:block_match",
+                            "block": "minecraft:barrier"
+                        },
+                        "output_state": {
+                            "name": "minecraft:air"
+                        }
+                    },
+                    {
+                        "input_predicate": {
+                            "predicate_type": "minecraft:block_match",
+                            "block": "minecraft:snow"
+                        },
+                        "output_state": {
+                            "name": "ac:crystallized_sugar_block"
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

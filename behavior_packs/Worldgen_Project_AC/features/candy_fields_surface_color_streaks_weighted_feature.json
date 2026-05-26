@@ -1,0 +1,11 @@
+{
+    "format_version": "1.21.80",
+    "minecraft:weighted_random_feature": {
+        "description": {
+            "identifier": "ac:candy_fields_surface_color_streaks_weighted_feature"
+        },
+        "features": [
+            ["ac:candy_fields_color_patch_feature_red", 1]
+        ]
+    }
+}

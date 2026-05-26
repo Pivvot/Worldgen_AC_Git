@@ -1,0 +1,23 @@
+{
+    "format_version": "1.21.80",
+    "minecraft:scatter_feature": {
+      "description": {
+        "identifier": "ac:nether_plains_grass_scatter_feature"
+      },
+      "places_feature": "ac:nether_plains_grass_feature",
+      "distribution": {
+        "iterations": "math.random(5, 9)",
+        "scatter_chance": 80.0,
+        "x": {
+          "distribution": "inverse_gaussian",
+          "extent": [ 3, 32 ]
+        },
+        "y": 0,
+        "z": {
+          "distribution": "inverse_gaussian",
+          "extent": [ 3, 32 ]
+        }
+      }
+    }
+  }
+  

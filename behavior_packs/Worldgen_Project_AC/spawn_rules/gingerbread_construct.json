@@ -1,0 +1,42 @@
+{
+    "format_version": "1.12.0",
+    "minecraft:spawn_rules": {
+      "description": {
+        "identifier": "ac:gingerbread_construct",
+        "population_control": "monster"
+      },
+      "conditions": [
+        {
+          "minecraft:spawns_on_surface": {},
+          "minecraft:spawns_on_block_filter": [
+            "minecraft:cherry_planks"
+          ],
+          "minecraft:brightness_filter": {
+            "min": 8,
+            "max": 15,
+            "adjust_for_weather": true
+          },
+          "minecraft:distance_filter": {
+            "min": 16,
+            "max": 32
+          },
+          "minecraft:difficulty_filter": {
+            "min": "peaceful",
+            "max": "hard"
+          },
+          "minecraft:weight": {
+            "default": 40
+          },
+          "minecraft:herd": {
+            "min_size": 1,
+            "max_size": 1
+          },
+          "minecraft:biome_filter": {
+            "test": "has_biome_tag",
+            "operator": "==",
+            "value": "ac:candy_fields"
+          }
+        }
+      ]
+    }
+  }

@@ -1,0 +1,76 @@
+{
+	"pools": [
+		{
+			"conditions": [
+				{
+					"condition": "killed_by_player_or_pets"
+				}
+			],
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"name": "minecraft:blaze_powder",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 1
+							}
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "minecraft:charcoal",
+					"weight": 2,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 3
+							}
+						}
+					]
+				},
+				{
+					"type": "empty",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"name": "minecraft:stone_sword",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 0,
+								"max": 1
+							}
+						},
+						{
+							"function": "set_damage",
+							"damage": {
+								"min": 0.25,
+								"max": 0.8
+							}
+						}
+					]
+				},
+				{
+					"type": "empty",
+					"weight": 3
+				}
+			]
+		}
+	]
+}

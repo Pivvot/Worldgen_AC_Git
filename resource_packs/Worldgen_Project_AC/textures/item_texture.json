@@ -1,0 +1,18 @@
+{
+    "resource_pack_name": "RP",
+    "texture_name": "atlas.items",
+    "texture_data": {
+      "ac:donut_texture": {
+        "textures": "textures/items/Donut"
+      },
+      "ac:red_candy_texture": {
+        "textures": "textures/items/red_candy"
+      },
+      "ac:blue_candy_texture": {
+        "textures": "textures/items/blue_candy"
+      },
+      "ac:orange_candy_texture": {
+        "textures": "textures/items/orange_candy"
+      }
+    }
+  }

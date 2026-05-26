@@ -1,0 +1,55 @@
+{
+  "format_version": "1.21.110",
+  "minecraft:biome": {
+    "description": {
+      "identifier": "ac:candy_fields"
+    },
+    "components": {
+      "minecraft:climate": {
+        "downfall": 0.6,
+        "snow_accumulation": [
+          0.0,
+          1.0
+        ],
+        "temperature": 0.25
+      },
+      "minecraft:overworld_height": {
+        "noise_type": "lowlands"
+      },
+      "minecraft:replace_biomes": {
+        "replacements": [
+          {
+            "dimension": "minecraft:overworld",
+            "targets": [
+              "minecraft:meadow",
+              "minecraft:cherry_grove",
+              "minecraft:ice_plains",
+              "minecraft:grove"
+            ],
+            "amount": 0.75,
+            "noise_frequency_scale": 4
+          }
+        ]
+      },
+      "minecraft:surface_builder": {
+        "builder": {
+          "type": "minecraft:overworld",
+          "sea_floor_depth": 7,
+          "sea_floor_material": "minecraft:magenta_terracotta",
+          "foundation_material": "minecraft:brown_terracotta",
+          "mid_material": "ac:crystallized_sugar_block",
+          "top_material": "ac:crystallized_sugar_block",
+          "sea_material": "minecraft:water"
+        }
+      },
+      "minecraft:tags": {
+        "tags": [
+          "overworld",
+          "cold",
+          "ac:candy_fields",
+          "monster"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+    "format_version": "1.21.110",
+    "minecraft:template_pool": {
+        "description": {
+            "identifier": "ac:village_candyfields/pathway_int"
+        },
+        "elements": [
+            {
+                "element": {
+                    "element_type": "minecraft:single_pool_element",
+                    "location": "ac/cv_pathturn_small_1",
+                    "processors": "ac:candy_fields_village_path_processor",
+                    "projection": "terrain_matching"
+                },
+                "weight": 1
+            },
+            {
+                "element": {
+                    "element_type": "minecraft:single_pool_element",
+                    "location": "ac/cv_pathturn_small_1",
+                    "processors": "ac:candy_fields_village_path_processor",
+                    "projection": "terrain_matching"
+                },
+                "weight": 1
+            }
+        ]
+    }
+}

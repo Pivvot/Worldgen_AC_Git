@@ -1,0 +1,13 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:aggregate_feature": {
+      "description": {
+        "identifier": "ac:candy_fields_groundfeatures_aggregate_small"
+      },
+      "features": [
+        "ac:candy_fields_gumdrop_1_feature",
+        "ac:candy_fields_gumdrop_2_feature",
+        "ac:candy_fields_gumdrop_3_feature"
+      ]
+    }
+  }

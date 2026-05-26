@@ -1,0 +1,54 @@
+{
+    "block_sounds": {
+        "ac:crystallized_sugar_block": {
+            "events": {
+                "break": "amethyst",
+                "hit": "tuff",
+                "place": "tuff"
+            }
+        },
+        "ac:sugar_sand": {
+            "events": {
+                "break": "sand",
+                "hit": "sand",
+                "place": "sand"
+            }
+        }
+    },
+    "entity_sounds": {
+		"entities": {
+			"ac:candy_villager": {
+				"events": {
+					"ambient": "mob.villager.idle",
+					"death": "mob.villager.death",
+					"death.to.zombie": "mob.villager.death",
+					"haggle": "mob.villager.haggle",
+					"haggle.no": "mob.villager.no",
+					"haggle.yes": "mob.villager.yes",
+					"hurt": "mob.villager.hit"
+				},
+				"pitch": [0.8, 1.2],
+				"volume": 1
+			},
+            "ac:gingerbread_construct": {
+				"events": {
+					"ambient": "mob.irongolem.say",
+					"death": "mob.irongolem.death",
+					"hurt": "mob.irongolem.hit",
+					"step": {
+						"pitch": 1,
+						"sound": "mob.irongolem.walk",
+						"volume": 1
+					},
+					"throw": {
+						"pitch": 1,
+						"sound": "mob.irongolem.throw",
+						"volume": 1
+					}
+				},
+				"pitch": [0.8, 1.2],
+				"volume": 1
+			}
+		}
+	}
+}

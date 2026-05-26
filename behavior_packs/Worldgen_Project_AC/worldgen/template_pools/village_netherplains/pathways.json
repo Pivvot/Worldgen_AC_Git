@@ -1,0 +1,58 @@
+{
+    "format_version": "1.21.110",
+    "minecraft:template_pool": {
+        "description": {
+            "identifier": "ac:village_netherplains/pathways"
+        },
+        "elements": [
+            {
+                "element": {
+                    "element_type": "minecraft:single_pool_element",
+                    "location": "ac/npv_pathway_straight_1",
+                    "processors": "ac:nether_plains_village_processor"
+                },
+                "weight": 4
+            },
+            {
+                "element": {
+                    "element_type": "minecraft:single_pool_element",
+                    "location": "ac/npv_pathway_straight_2",
+                    "processors": "ac:nether_plains_village_processor"
+                },
+                "weight": 3
+            },
+            {
+                "element": {
+                    "element_type": "minecraft:single_pool_element",
+                    "location": "ac/npv_pathway_straight_3",
+                    "processors": "ac:nether_plains_village_processor"
+                },
+                "weight": 3
+            },
+            {
+                "element": {
+                    "element_type": "minecraft:single_pool_element",
+                    "location": "ac/npv_pathway_90degturn",
+                    "processors": "ac:nether_plains_village_processor"
+                },
+                "weight": 2
+            },
+            {
+                "element": {
+                    "element_type": "minecraft:single_pool_element",
+                    "location": "ac/npv_pathway_4way",
+                    "processors": "ac:nether_plains_village_processor"
+                },
+                "weight": 1
+            },
+            {
+                "element": {
+                    "element_type": "minecraft:single_pool_element",
+                    "location": "ac/npv_pathway_3way",
+                    "processors": "ac:nether_plains_village_processor"
+                },
+                "weight": 1
+            }
+        ]
+    }
+}

@@ -1,0 +1,65 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Worldgen Portfolio Behaviors",
+		"description": "Behaviors for Worldgen Portfolio by Andrew Childers.",
+		"uuid": "1a851c0f-5951-415a-ab74-66845b941df9",
+		"pack_scope": "world",
+		"version": [
+			1,
+			0,
+			0
+		],
+		"min_engine_version": [
+			1,
+			20,
+			81
+		]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "1b32dc5b-dce3-46d2-99b5-eaa74f4c53b3",
+			"version": [
+				1,
+				0,
+				0
+			]
+		},
+		{
+			"type": "script",
+			"language": "javascript",
+			"uuid": "6cf1d987-5b01-42cc-8b5f-4a54de6052bb",
+			"version": [
+				1,
+				0,
+				0
+			],
+			"entry": "scripts/main.js"
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "a347a2da-ebad-476e-b340-411b4d24d81a",
+			"version": [
+				1,
+				0,
+				0
+			]
+		},
+		{
+			"module_name": "@minecraft/server",
+			"version": "1.10.0"
+		},
+		{
+			"module_name": "@minecraft/server-ui",
+			"version": "1.1.0"
+		}
+	],
+	"metadata": {
+		"product_type": "addon"
+	},
+	"capabilities": [
+		"script_eval"
+	]
+}

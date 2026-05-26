@@ -1,0 +1,8 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:texture_set": {
+		"color": "sugar_sand_texture_16x16",
+		"metalness_emissive_roughness": "sugar_sand_texture_16x16_mer",
+		"heightmap": "sugar_sand_texture_16x16_height"
+	}
+}
