@@ -24,7 +24,9 @@
        "skipLibCheck": true
     },
     "include":[ 
-       "scripts/**/*"
+       "scripts/**/*",
+       "Content/behavior_packs/Worldgen_Behaviors_AC",
+       "Content/resource_packs/Worldgen_Behaviors_AC"
     ],
     "exclude": ["lib", "dist", "node_modules"],
     "compileOnSave":false
