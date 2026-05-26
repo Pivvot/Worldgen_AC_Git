@@ -31,4 +31,3 @@ These are the primary things to be looking for.
 There's also small handful of extra stuff in the add-on pack that's at varying stages of completeness, but those have been disabled in-game for the sake of simplicity. 
 
 Thanks again, looking forward to future correspondance!
-- Andrew Childers
